@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using CharacterState;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using GameState;
+using UniRx;
 
 public class GameManager : SingletonMonoBehaviour<GameManager>
 {
-   public enum GameState
+    public enum GameState
     {
         Opening,
         Playing,
@@ -22,6 +25,12 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     [SerializeField] private GameObject gameOverCanvasPrefab;
     private GameObject gameOverCanvasClone;
     private Button[] buttons;
+    
+    public StateProcessor StateProcessor { get; set; } = new StateProcessor();
+    public CharacterStateIdle StateIdle { get; set; } = new CharacterStateIdle();
+    public CharacterStateRun StateRun { get; set; } = new CharacterStateRun();
+    public CharacterStateAir StateAir { get; set; } = new CharacterStateAir();
+    public CharacterStateAttack StateAttack { get; set; } = new CharacterStateAttack();
 
     private void Start()
     {
