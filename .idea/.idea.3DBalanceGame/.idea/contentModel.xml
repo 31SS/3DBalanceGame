@@ -817,6 +817,7 @@
           <e p="readme.txt" t="Include" />
         </e>
         <e p="Interface" t="Include">
+          <e p="IBadEvent.cs" t="Include" />
           <e p="IPlayerInput.cs" t="Include" />
         </e>
         <e p="Mixamo" t="Include">
@@ -1124,16 +1125,24 @@
         <e p="Script" t="Include">
           <e p="ChangeGravity.cs" t="Include" />
           <e p="CharacterControllerScript.cs" t="Include" />
-          <e p="GameSystem" t="Include">
+          <e p="ColisionItem" t="Include">
+            <e p="GameOverItem.cs" t="Include" />
+          </e>
+          <e p="Manager" t="Include">
             <e p="GameManager.cs" t="Include" />
-            <e p="SingletonMonoBehaviour.cs" t="Include" />
+            <e p="GameManager1.cs" t="Include" />
+            <e p="GameState.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="Player.cs" t="Include" />
             <e p="PlayerInput.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
             <e p="PlayerState.cs" t="Include" />
           </e>
           <e p="PlayerController.cs" t="Include" />
+          <e p="Singleton" t="Include">
+            <e p="SingletonMonoBehaviour.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
