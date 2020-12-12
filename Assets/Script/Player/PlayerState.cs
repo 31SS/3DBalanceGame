@@ -50,6 +50,11 @@ namespace CharacterState
         {
             return "State:Idle";
         }
+        // public override void Execute()
+        // {
+        //     Debug.Log("なにか特別な処理をしたいときは派生クラスにて処理をしても良い");
+        //     ExecAction?.Invoke();
+        // }
     }
 
     /// <summary>
@@ -82,6 +87,40 @@ namespace CharacterState
         public override string GetStateName()
         {
             return "State:Attack";
+        }
+
+        public override void Execute()
+        {
+            Debug.Log("なにか特別な処理をしたいときは派生クラスにて処理をしても良い");
+            ExecAction?.Invoke();
+        }
+    }
+    
+    /// <summary>
+    /// クリアした状態
+    /// </summary>
+    public class CharacterStateClear : CharacterState
+    {
+        public override string GetStateName()
+        {
+            return "State:Clear";
+        }
+
+        public override void Execute()
+        {
+            Debug.Log("なにか特別な処理をしたいときは派生クラスにて処理をしても良い");
+            ExecAction?.Invoke();
+        }
+    }
+    
+    /// <summary>
+    /// ミスした状態
+    /// </summary>
+    public class CharacterStateDie : CharacterState
+    {
+        public override string GetStateName()
+        {
+            return "State:Die";
         }
 
         public override void Execute()

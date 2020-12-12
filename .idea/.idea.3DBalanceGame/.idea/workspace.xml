@@ -30,9 +30,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ColisionItem/BadItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Interface/IBadEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/ColisionItem/GameOverItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Player/PlayerManager2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Manager/RespawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Agent/AgentSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ColisionItem/ClearItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Interface/IClearEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ChangeGravity.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -44,14 +49,28 @@
         <option value="$PROJECT_DIR$/Assets/Script/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameManager/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/SingletonMonoBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Manager/GameManager1.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Manager/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Manager/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Interface/IBadEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Manager/RespawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IBadEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ColisionItem/GameOverItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IClearEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ColisionItem/BadItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ColisionItem/ClearItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Enemy/EnemyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BaseCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerManager2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Enemy/EnemyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Agent/3DBalanceSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Agent/AgentSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Enemy/EnemyAgents.cs" />
       </list>
     </option>
   </component>
@@ -71,6 +90,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -114,6 +134,18 @@
       <workItem from="1605886508946" duration="4727000" />
       <workItem from="1605936709463" duration="5429000" />
       <workItem from="1605972304071" duration="4997000" />
+      <workItem from="1606104749488" duration="10452000" />
+      <workItem from="1606200564171" duration="1890000" />
+      <workItem from="1606275993848" duration="1704000" />
+      <workItem from="1606317710902" duration="6101000" />
+      <workItem from="1606376908549" duration="2881000" />
+      <workItem from="1606403752812" duration="5164000" />
+      <workItem from="1606725605259" duration="1830000" />
+      <workItem from="1607095492534" duration="2042000" />
+      <workItem from="1607143126452" duration="7625000" />
+      <workItem from="1607314709551" duration="1747000" />
+      <workItem from="1607407581195" duration="3154000" />
+      <workItem from="1607613106250" duration="4662000" />
     </task>
     <servers />
   </component>
@@ -132,14 +164,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1605974717951">
+    <state x="468" y="165" key="SettingsEditor" timestamp="1607152391090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605974717951" />
+    <state x="468" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607152391090" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1607615150830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1607615150830" />
+    <state x="327" y="299" width="974" height="1011" key="dock-window-2" timestamp="1607614501276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="327" y="299" width="974" height="1011" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1607614501276" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606405523302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606405523302" />
   </component>
 </project>
