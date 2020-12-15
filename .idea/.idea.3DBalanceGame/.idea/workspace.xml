@@ -33,12 +33,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/ColisionItem/BadItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Player/PlayerManager2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Interface/IClearEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ChangeGravity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Manager/RespawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Agent/AgentSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ColisionItem/ClearItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Interface/IClearEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/ChangeGravity.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,6 +71,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/Agent/3DBalanceSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Agent/AgentSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy/EnemyAgents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Enemy/EnemyAgent.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +147,15 @@
       <workItem from="1607314709551" duration="1747000" />
       <workItem from="1607407581195" duration="3154000" />
       <workItem from="1607613106250" duration="4662000" />
+      <workItem from="1607752232708" duration="4499000" />
+      <workItem from="1607782945978" duration="1143000" />
+      <workItem from="1607784390082" duration="6029000" />
+      <workItem from="1607844623930" duration="5898000" />
+      <workItem from="1607872871945" duration="4414000" />
+      <workItem from="1607907163316" duration="88000" />
+      <workItem from="1607907271543" duration="7385000" />
+      <workItem from="1608019183947" duration="83000" />
+      <workItem from="1608022345602" duration="1555000" />
     </task>
     <servers />
   </component>
@@ -174,10 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607152391090" />
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1607615150830">
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1607845816192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1607615150830" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1607845816192" />
     <state x="327" y="299" width="974" height="1011" key="dock-window-2" timestamp="1607614501276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,5 +196,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606405523302" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1607789658207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607789658207" />
   </component>
 </project>

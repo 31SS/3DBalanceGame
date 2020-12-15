@@ -3,7 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Users\SS\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\SS\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_3DBalanceGame.1156759660.00" t="ExcludeRecursive" />
-    <e p="C:\Users\SS\Desktop\ml-agents-release_10\com.unity.ml-agents\Editor" t="Include">
+    <e p="C:\Users\SS\Desktop\ml-agents-release_8\com.unity.ml-agents\Editor" t="Include">
       <e p="AgentEditor.cs" t="Include" />
       <e p="BehaviorParametersEditor.cs" t="Include" />
       <e p="BrainParametersDrawer.cs" t="Include" />
@@ -15,7 +15,7 @@
       <e p="RenderTextureSensorComponentEditor.cs" t="Include" />
       <e p="Unity.ML-Agents.Editor.asmdef" t="Include" />
     </e>
-    <e p="C:\Users\SS\Desktop\ml-agents-release_10\com.unity.ml-agents\Runtime" t="Include">
+    <e p="C:\Users\SS\Desktop\ml-agents-release_8\com.unity.ml-agents\Runtime" t="Include">
       <e p="Academy.cs" t="Include" />
       <e p="Actuators" t="Include">
         <e p="ActionSegment.cs" t="Include" />
@@ -97,7 +97,6 @@
         <e p="IPolicy.cs" t="Include" />
         <e p="RemotePolicy.cs" t="Include" />
       </e>
-      <e p="RecursionChecker.cs" t="Include" />
       <e p="Sampler.cs" t="Include" />
       <e p="SensorHelper.cs" t="Include" />
       <e p="Sensors" t="Include">
@@ -146,13 +145,13 @@
       <e p="UnityAgentsException.cs" t="Include" />
       <e p="Utilities.cs" t="Include" />
     </e>
-    <e p="C:\Users\SS\Desktop\ml-agents-release_10\com.unity.ml-agents\Tests\Editor" t="Include">
+    <e p="C:\Users\SS\Desktop\ml-agents-release_8\com.unity.ml-agents\Tests\Editor" t="Include">
       <e p="PublicAPI" t="Include">
         <e p="Unity.ML-Agents.Editor.Tests.PublicAPI.asmdef" t="Include" />
       </e>
       <e p="Unity.ML-Agents.Editor.Tests.asmdef" t="Include" />
     </e>
-    <e p="C:\Users\SS\Desktop\ml-agents-release_10\com.unity.ml-agents\Tests\Runtime" t="Include">
+    <e p="C:\Users\SS\Desktop\ml-agents-release_8\com.unity.ml-agents\Tests\Runtime" t="Include">
       <e p="Unity.ML-Agents.Runtime.Tests.asmdef" t="Include" />
     </e>
     <e p="C:\Users\SS\Desktop\ゼミ_機械学習\3DBalanceGame" t="IncludeRecursive">
@@ -1281,7 +1280,7 @@
             <e p="ClearItem.cs" t="Include" />
           </e>
           <e p="Enemy" t="Include">
-            <e p="EnemyAgents.cs" t="Include" />
+            <e p="EnemyAgent.cs" t="Include" />
             <e p="EnemyManager.cs" t="Include" />
           </e>
           <e p="Interface" t="Include">

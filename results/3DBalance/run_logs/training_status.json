@@ -1,0 +1,23 @@
+{
+    "3DBalance": {
+        "checkpoints": [
+            {
+                "steps": 100027,
+                "file_path": "results\\3DBalance\\3DBalance\\3DBalance-100027.nn",
+                "reward": null,
+                "creation_time": 1607931001.9872792
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 100027,
+            "file_path": "results\\3DBalance\\3DBalance.nn",
+            "reward": null,
+            "creation_time": 1607931001.9872792
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.20.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

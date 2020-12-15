@@ -76,8 +76,11 @@ GameObject:
   - component: {fileID: 6161753075530574992}
   - component: {fileID: 5668416044987753660}
   - component: {fileID: 3555130692412214127}
-  - component: {fileID: 9220449516878786045}
   - component: {fileID: 5317240712908985060}
+  - component: {fileID: 6161753075480259870}
+  - component: {fileID: 6161753075480259871}
+  - component: {fileID: 6161753075480259872}
+  - component: {fileID: 6161753075480259878}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Player
@@ -111,7 +114,7 @@ Animator:
   m_GameObject: {fileID: 6161753075523182292}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 233a319efc007814798900e94b7b18d2, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 860778eac8ad3a341a7ac481e8918604, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -134,7 +137,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &3555130692412214127
 MonoBehaviour:
@@ -148,29 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320e60466ff148841a702be5192ffac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localGravity: {x: 0, y: 0, z: 0}
---- !u!114 &9220449516878786045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6161753075523182292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddf57e357041f514d853eb44e6b624a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rb: {fileID: 0}
-  _animator: {fileID: 0}
-  isGround: 0
-  target_dir: {x: 0, y: 0, z: 0}
-  magnitude: 0
-  distance: 0.54
-  RUN_SPEED: 0
-  JUMP_POWER: 0
-  SMOOTH: 0
-  speed: {x: 0, y: 0, z: 0}
+  localGravity: {x: 0, y: -20, z: 0}
 --- !u!136 &5317240712908985060
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -185,6 +166,103 @@ CapsuleCollider:
   m_Height: 1.85
   m_Direction: 1
   m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!114 &6161753075480259870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161753075523182292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: RayPerceptionSensor
+  m_DetectableTags:
+  - Ground
+  m_RaysPerDirection: 16
+  m_MaxRayDegrees: 180
+  m_SphereCastRadius: 0.5
+  m_RayLength: 20
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
+  m_ObservationStacks: 1
+  rayHitColor: {r: 1, g: 0, b: 0, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 0.55
+  m_EndVerticalOffset: -10
+--- !u!114 &6161753075480259871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161753075523182292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 12
+    NumStackedVectorObservations: 1
+    VectorActionSize: 030000000300000002000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 0
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 1
+  m_BehaviorType: 0
+  m_BehaviorName: 3DBalance
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_ObservableAttributeHandling: 0
+--- !u!114 &6161753075480259872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161753075523182292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9582f25f29b50847bb09023c5c53636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 5000
+  target: {fileID: 0}
+  start: {fileID: 0}
+  goalRespawnPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _animator: {fileID: 6161753075530574992}
+  isGround: 0
+  target_dir: {x: 0, y: 0, z: 0}
+  magnitude: 0
+  _distance: 0.54
+  RUN_SPEED: 150
+  JUMP_POWER: 15
+  SMOOTH: 10
+--- !u!114 &6161753075480259878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161753075523182292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 10
+  TakeActionsBetweenDecisions: 1
 --- !u!1 &6161753075523182294
 GameObject:
   m_ObjectHideFlags: 0
